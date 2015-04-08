@@ -1,0 +1,24 @@
+Created: 2014-10-03
+Updated: 2015-03-27
+
+How to Bootstrap
+
+    curl bootstrap.viiivi.com
+
+(1) Use "ssh" to login as "root":
+
+    adduser me
+    adduser me sudo
+    exit
+
+(2) Use "ssh" to login as "me":
+
+    curl -LO http://bootstrap.viiivi.com/Bundle/SA
+    curl -LO http://bootstrap.viiivi.com/Bundle/SA.bash
+    bash SA.bash
+    ...
+    sudo reboot
+    
+(3) Use "mosh" to login as "me" inside "fish":
+
+    ...
